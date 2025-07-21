@@ -12,6 +12,7 @@ function App() {
       <ThemeProvider>
         <Toaster position="top-right" reverseOrder={true} />
         <div className="flex min-h-svh flex-col items-center justify-center">
+          <img src={"src/assets/temp.png"}/>
           <Button className="mb-4"
             onClick={() => {
               toast((t) => (
