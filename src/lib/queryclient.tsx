@@ -13,9 +13,9 @@ export const queryClient = new QueryClient({
         return failureCount < 3
       },
       refetchOnWindowFocus: false,
-      onError: (error) => {
-        toast.error(`Query error: ${error.message}`)
-      },
+    //   onError: (error) => {
+    //     toast.error(`Query error: ${error.message}`)
+    //   },
     },
     mutations: {
       onError: (error) => {
